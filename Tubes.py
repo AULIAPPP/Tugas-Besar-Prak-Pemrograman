@@ -60,7 +60,7 @@ def track_fingers():
             #Parameter = (x,y), font,warna,
             cv2.putText(img, "SUIT GAMES",  (180, img.shape[0] // 2 - 150), cv2.FONT_HERSHEY_DUPLEX, 1, (80, 127, 255), thickness=4)
             cv2.putText(img, "Gunakan Telunjuk Untuk Memilih Game", (1, img.shape[0] // 2 - 100), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255))
-            cv2.putText(img, "Tekan 'Enter' Untuk Keluar :(",  (80, img.shape[0] // 2 + 150), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255))
+            cv2.putText(img, "Tekan 's' Untuk Keluar :(",  (80, img.shape[0] // 2 + 150), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255))
             cv2.putText(img, "Tekan 'Backspace' Buat Balikan",  (80, img.shape[0] // 2 + 180), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255))
 
             #KOTAK & TEXT
